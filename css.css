@@ -1,0 +1,39 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.icono{
+	position: fixed;
+	font-size: 30px;
+	animation: subida 3s linear forwards;
+}
+
+@keyframes subida {
+
+	to{
+		transform: translateY(-1vh);
+	}
+
+	from{
+		transform: translateY(100vh);
+	}
+
+}
+
+.ocultar{
+      visibility: hidden;
+  }
+
+
+.container{
+	background-color: lightblue;
+	display: flex;
+	text-align: center;
+    justify-content: center
+}
+.container button{
+	margin: 48vh;
+}
